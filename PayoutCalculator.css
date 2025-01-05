@@ -1,0 +1,44 @@
+/* PayoutCalculator.css */
+.payout-calculator-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payout-settings {
+    margin-bottom: 20px;
+  }
+  
+  .payout-input {
+    padding: 10px;
+    margin-left: 10px;
+    width: 150px;
+  }
+  
+  .payout-details-table {
+    margin-top: 20px;
+  }
+  
+  .payout-details-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .payout-details-table th, .payout-details-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .payout-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .total-payout {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

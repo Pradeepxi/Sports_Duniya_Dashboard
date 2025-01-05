@@ -1,0 +1,164 @@
+.slider-container {
+  margin: 20px auto;
+  width: 100%;
+}
+.slider-item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 2px; /* Rounded corners */
+  overflow: hidden; /* Ensures no overflow from the container */
+  position: relative; /* For name positioning */
+  background-color: #f5f2f2; /* Subtle background for empty space */
+  border: 2px solid transparent; /* Adds a polished border effect */
+}
+
+.slider-item.active {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  background-color: #9b71f5; /* Subtle background for empty space */
+}
+/* Add this to App.css or create a new CSS file for the NewsAnalytics component */
+.analytics-container {
+  padding: 20px;
+}
+
+.chart-container {
+  margin-bottom: 30px;
+}
+
+.chart-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.sport-image {
+  width: 100%;
+  height: 380px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures full image visibility without cropping */
+  background-color: #fff; /* Fills empty space around the image */
+  border-radius: 12px; /* Matches the slider item’s rounded corners */
+}
+
+.sport-name {
+  position: absolute; /* Positioned over the image */
+  bottom: 10px; /* Slightly above the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: fit-content;
+}
+.App {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    background: linear-gradient(135deg, #0bbc99, #672984);
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .dashboard-title p {
+    font-size: 1rem;
+    margin: 10px 0 0;
+    font-style: italic;
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  .news-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .news-card h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .news-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .news-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .news-card a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  .logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000;
+  }
+  
